@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/des-catan-map-builder/sw.js', { scope: '/des-catan-map-builder/' })})}
